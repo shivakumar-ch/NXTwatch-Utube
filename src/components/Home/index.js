@@ -133,7 +133,7 @@ class Home extends Component {
             )}
             <NoItemsPara>Oops! Something went wrong</NoItemsPara>
             <p>
-              We are haing some trouble to complete your request.Please try
+              We are having some trouble to complete your request.Please try
               again.
             </p>
             <RetryBtn onClick={this.getListItems}>Retry</RetryBtn>

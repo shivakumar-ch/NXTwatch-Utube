@@ -60,18 +60,28 @@ export const ViewsTimeDiv = styled.ul`
   padding: 0px;
   width: 50%;
   font-size: 15px;
-  //   line-height: 0px;
+  @media screen and (max-width: 767px) {
+    width: 90%;
+  }
 `
 
 export const CountLi = styled.li`
   list-style-type: none;
   margin-right: 20px;
   color: ${props => props.clr};
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+    width: 50%;
+  }
 `
 export const TimeLi = styled.li`
   list-style-type: disc;
   //   margin-right: 20px;
   color: ${props => props.clr};
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+    width: 50%;
+  }
 `
 export const Thumbnail = styled.img`
   max-width: 50%;
@@ -93,9 +103,15 @@ export const VideosUl = styled.ul`
 
 export const Info = styled.div`
   width: 70%;
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 `
 export const Para = styled.p`
   color: ${props => props.clr};
+  @media screen and (max-width: 767px) {
+    font-size: 10px;
+  }
 `
 
 export const IconDiv = styled.div`
@@ -115,5 +131,7 @@ export const Head = styled.h1`
 
 export const Li = styled.li`
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
 `

@@ -77,6 +77,8 @@ export const Head = styled.h1`
 
 export const Li = styled.li`
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin-block-end: 10px;
 `
 export const NoItemsPara = styled.h1`
